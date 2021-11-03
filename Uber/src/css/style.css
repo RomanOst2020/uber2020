@@ -1,0 +1,248 @@
+* {
+    font-family: 'Roboto',sans-serif;
+
+}
+header {
+    position: relative;
+    position: sticky;
+}
+
+nav {
+    height: 50px;
+    background: #212121;
+    
+
+   
+}
+
+.sticky-top {
+    position: sticky;
+    top: 0;
+
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13.75px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    font-weight: 300;
+    font-size: 15px;
+
+    text-decoration: none;
+    /* or 100% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 31px;
+    
+
+
+
+}
+
+.subheader {
+    height: 87px;
+    position: absolute;
+    width: 100%;
+    
+
+    background-color:rgba(0, 0, 0, 0.6);
+    mix-blend-mode: normal;
+    
+}
+
+.subheader .subheader_logo {
+    display:block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    font-weight: 200;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_call {
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    margin-top: 24px;
+
+    color: #FFFFFF;
+}
+
+.subheader .subheader_tel {
+    display: block;
+    margin-top: 8px;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 14px;
+    /* identical to box height, or 309% */
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: right;
+   
+    color: #FFFFFF;
+}
+
+.subheader .subheader_btn {
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    margin-top: 21px;
+    font-size: 14px;
+    line-height: 46px;
+    /* identical to box height, or 329% */
+
+   
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    color: #FFFFFF;
+}
+
+.promo {
+    min-height: 800px;
+    background: url(../img/uber_bg.png) center center/cover no-repeat;
+    padding: 150px 0  135px 0;
+    
+}
+
+.promo .promo_header {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.promo .promo_subheader {
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+    margin-top: 20px;
+  
+
+}
+
+.promo .promo_text {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 23px;
+
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 107px auto 0 auto ;
+    
+    width: 259px;
+    height: 63px;
+
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.reason {
+    /* padding: 70px 0 65px 0; */
+    /* background: right / contain no-repeat url("../img/RomanOstapenko.png") */
+}
+.reason .label {
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 9px 12px;
+    width: 115px;
+    height: 26px;
+
+    background: #000000;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    margin-top: 32px;
+}
+
+.reason .reason_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.reason .reason_block .reason_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+    width: 116px;
+    height: 116px;
+
+    background: #1EACC7;
+    border-radius: 100%;
+
+
+}
+
+
+.reason .reason_block .reason_descr {
+    width: 371px;
+}
+
+.reason .reason_block .reason_descr .reason_subtitle{
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.reason .reason_block .reason_descr .reason_text {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
